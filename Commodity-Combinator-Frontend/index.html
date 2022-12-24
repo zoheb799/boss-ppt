@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Http Networking</title>
+    <link rel="stylesheet" href="assets/styles/app.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js" defer></script>
+    <!-- <script src="assets/scripts/app.js" defer></script> -->
+    <script src="assets/scripts/axioss.js" defer></script>
+</head>
+
+<body class="body">
+    <!-- <img src="assets/images/backgroundpic.jpg" alt="none"> -->
+    <template id="single-post">
+        <li class="post-item">
+            <h2></h2>
+            <p></p>
+            <button>DELETE</button>
+        </li>
+    </template>
+    <section id="new-post" class="sec-1" style="margin-top: 3rem;">
+        <div class="image">
+            <img src="assets/images/sidephoto.jpg" alt="">
+        </div>
+
+        <div class="form" id="new-post">
+            <form>
+                <h2>Welcome to Commodity</h2>
+                <p>Come and add your data</p>
+                <br>
+                <div class="form-control">
+                    <label for="userID">Username</label>
+                    <input type="text" id="userID" />
+                    <label for="marketID">Market ID</label>
+                    <input type="text" id="marketID" />
+                    <label for="markteName">Market Name</label>
+                    <input type="text" id="marketName" />
+                    <label for="cmdtyID">Commodity ID</label>
+                    <input type="text" id="cmdtyID" />
+                    <label for="cmdtyName">Commodity Name</label>
+                    <input type="text" id="cmdtyName" />
+                    <label for="priceUnit">Price Unit</label>
+                    <input type="text" id="priceUnit" />
+                    <label for="convFctr">Conversion Factor</label>
+                    <input type="number" id="convFctr" />
+                    <label for="price">Price</label>
+                    <input type="number" id="price" />
+                </div>
+                <!-- <div class="form-control">
+                    <label for="content">Content</label>
+                    <textarea rows="3" id="content"></textarea>
+                </div> -->
+                <div class="submit">
+
+                    <button type="submit" class="sub-but">ADD</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section id="available-posts" class="sec-2" style="background-color: white; height: fit-content; width: 63vw;">
+        <div class="buttons">
+            <div>
+                <button>FETCH POSTS</button>
+            </div>
+            <p class="button_1">
+                    
+            </p>
+        </div>
+        <h3>Post 1</h3>
+        <p class="marketName1">marketName:- </p>
+        <p class="cmdtyID1">cmdtyID:- </p>
+        <p class="cmdtyName1">cmdtyName:- </p>
+        <p class="price1">price:- </p>
+<h3>Post 2</h3>
+        <p class="marketName2">marketName:- </p>
+        <p class="cmdtyID2">cmdtyID:- </p>
+        <p class="cmdtyName2">cmdtyName:- </p>
+        <p class="price2">price:- </p>
+
+        <h3>Post 3</h3>
+        <p class="marketName3">marketName:- </p>
+        <p class="cmdtyID3">cmdtyID:- </p>
+        <p class="cmdtyName3">cmdtyName:- </p>
+        <p class="price3">price:- </p>
+        <h3>Post 4</h3>
+        <p class="marketName4">marketName:- </p>
+        <p class="cmdtyID4">cmdtyID:- </p>
+        <p class="cmdtyName4">cmdtyName:- </p>
+        <p class="price4">price:- </p>
+        <h3>Post 5</h3>
+        <p class="marketName5">marketName:- </p>
+        <p class="cmdtyID5">cmdtyID:- </p>
+        <p class="cmdtyName5">cmdtyName:- </p>
+        <p class="price5">price:- </p>
+        
+        
+    </section>
+</body>
+
+</html>
